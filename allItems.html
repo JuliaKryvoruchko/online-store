@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="allItems.css">
+</head>
+
+
+<body>
+    <header class="header-content">
+        <div class="header-navigation">
+            <div class="logo">
+                <h2 class="part1">foxmind</h2>
+                <h2 class="part2">ed</h2>
+            </div>
+            <div class="busket-logo">
+                <img src="img/black-busket (1).png" alt="" onclick="openCloseBasket()" class="busket"> <a
+                    href=""></a></img>
+                <img src="img/black-fox(2).png" alt="">
+            </div>
+        </div>
+        <div class="scrollMenu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <nav class="menu">
+                <a href="">SHOP</a>
+                <a href="index.html">MAINPAGE</a>
+                <a href="ourHistory.html">OUR HISTORY</a>
+                <a href="allItems.html" class="allItems">ALL ITEMS</a>
+            </nav>
+        </div>
+        <div class="header-name-block">
+            <p class="header-path">Home/About us</p>
+            <h1 class="header-name">All Items</h1>
+        </div>
+    </header>
+    <main>
+        <div class="filters">
+            <div class="filter-search">
+                <input type="text" class="search" placeholder="Search" id="inputSearch"
+                    oninput="filterFoxesByName()">
+                <img src="img/Vector.png" alt="" class="laber-search">
+            </div>
+            <div class="filter-topic">
+                <h3 class="header-filter-topic">Topic</h3>
+                <ul class="block-filer-topic" id="select">
+                    <li class="clicked active" id="item1" onclick="filterFoxesByTopic(this.innerText)">All</li>
+                    <li id="item2" onclick="filterFoxesByTopic(this.innerText)">Forest</li>
+                    <li id="item3" onclick="filterFoxesByTopic(this.innerText)">Foxs kids</li>
+                    <li id="item4" onclick="filterFoxesByTopic(this.innerText)">Other</li>
+                </ul>
+            </div>
+            <div class="price">
+                <h3 class="header-price">Price</h3>
+                <input oninput="price()" type="range" id="price" min="0" max="150" step="number">
+                <div class="label">
+                    <p class="value-label-price">Value: $</p>
+                    <label for="income" class="label-income" id="value"></label>
+                </div>
+            </div>
+        </div>
+        <div class="foxes-and-button">
+            <div class="foxes" id="foxes">
+            </div>
+            <button class="button-all-foxes" id="button-all-foxes" onclick="showAllFoxes()">All foxes</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-blocks">
+            <div class="contact-us">
+                <div class="logo">
+                    <h3 class="footer-logo-part-1">foxmind</h3>
+                    <h3 class="footer-logo-part-2">ed</h3>
+                </div>
+                <p class="contact-us-text">Lorem ipsum dolor sit amet consectetur consectetur</p>
+                <p class="contact-us-phone-number">Call us : 8956 3254 7887</p>
+                <div class="social-networks">
+                    <img src="img/instagram 1.png" alt="" class="networks">
+                    <img src="img/telegram.png" alt="" class="networks">
+                    <img src="img/twiter.png" alt="" class="networks">
+                </div>
+            </div>
+            <div class="footer-shop-block">
+                <h3 class="footer-blocks-header">Shop</h3>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+            </div>
+            <div class="footer-products-block">
+                <h3 class="footer-blocks-header">Products</h3>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+            </div>
+            <div class="footer-collection-block">
+                <h3 class="footer-blocks-header">Collection</h3>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+            </div>
+            <div class="footer-weeklyUpdates-block">
+                <h3 class="footer-blocks-header">Weekly updates</h3>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+            </div>
+            <div class="footer-aboutUs-block">
+                <h3 class="footer-blocks-header">About us</h3>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+                <p class="footer-blocks-text">lorem ipsum</p>
+            </div>
+        </div>
+        <p class="footer-of-the-page">Storelogo, 2023 All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

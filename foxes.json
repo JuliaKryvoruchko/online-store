@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Fox 1",
+        "price": 90.00,
+        "topic": "Forest",
+        "img": "./img/foxes/2Oen7a8.png",
+        "imgBusket": "./img/add.png",
+        "imgStars": "./img/stars.png"
+    },
+    {
+        "id": "2",
+        "name": "Fox 2",
+        "price": 120.00,
+        "topic": "Office",
+        "img": "./img/foxes/4Ccn1GX.png",
+        "imgBusket": "./img/add.png",
+        "imgStars": "./img/stars.png"
+    },
+    {
+        "id": "3",
+        "name": "Fox 3",
+        "price": 100.00,
+        "topic": "Foxs kids",
+        "img": "./img/foxes/4dHlHQa.png",
+        "imgBusket": "./img/add.png",
+        "imgStars": "./img/stars.png"
+    },
+    {
+        "id": "4",
+        "name": "Fox 4",
+        "price": 140.00,
+        "topic": "Foxs kids",
+        "img": "./img/foxes/cyByly0.png",
+        "imgBusket": "./img/add.png",
+        "imgStars": "./img/stars.png"
+    },
+    {
+        "id": "5",
+        "name": "Fox 5",
+        "price": 120.00,
+        "topic": "Forest",
+        "img": "./img/foxes/fWRQQB5.png",
+        "imgBusket": "./img/add.png",
+        "imgStars": "./img/stars.png"
+    },
+    {
+        "id": "6",
+        "name": "Fox 6",
+        "price": 100.00,
+        "topic": "Other",
+        "img": "./img/foxes/NfkeJMU.png",
+        "imgBusket": "./img/add.png",
+        "imgStars": "./img/stars.png"
+    },
+    {
+        "id": "7",
+        "name": "Fox 7",
+        "price": 110.00,
+        "topic": "Forest",
+        "img": "./img/foxes/qWJPkUM.png",
+        "imgBusket": "./img/add.png",
+        "imgStars": "./img/stars.png"
+    },
+    {
+        "id": "8",
+        "name": "Fox 8",
+        "price": 120.00,
+        "topic": "Foxs kids",
+        "img": "./img/foxes/uyuS6My.png",
+        "imgBusket": "./img/add.png",
+        "imgStars": "./img/stars.png"
+    }
+]
